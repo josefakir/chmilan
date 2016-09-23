@@ -37,6 +37,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	.twelve{width:940px;}	
 	.one-third{width: 300px}
 	.two-third{width: 620px}
+	.one-half{width: 460px}
+
 }
 @media only screen and (min-width: 769px) and (max-width: 960px) {
 	.container{width: 768px; margin: 0 auto; position: relative;}
@@ -54,6 +56,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	.twelve{width:748px;}	
 	.one-third{width: 236px}
 	.two-third{width: 492px}
+	.one-half{width: 364px}
+
 }
 @media only screen and (min-width: 421px) and (max-width: 768px) {
 	.container{width: 420px; margin: 0 auto; position: relative;}
@@ -89,6 +93,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	.twelve{width:355px;}	
 	.one-third{width: 355px}
 	.two-third{width: 355px}
+	.one-half{width: 350px}
 	.column{margin: 5px 0}
 }
 @media only screen and (max-width: 320px) {
@@ -107,5 +112,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	.twelve{width:300px;}	
 	.one-third{width: 300px}
 	.two-third{width: 300px}
+	.one-half{width: 300px}
 	.column{margin: 5px 0}
 }

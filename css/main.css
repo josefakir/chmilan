@@ -5,7 +5,7 @@ body{font-family: 'Open Sans', sans-serif; background: #ECEFF1}
 #menu li a.current{color:#ff7978}
 #menu li a:hover{color:#ff7978}
 #contenedormenu{background: url(../images/line.png) repeat-x center bottom; height: 50px;}
-#logo{font-family: 'Merriweather', serif;}
+#logo{font-family: 'Merriweather', serif;margin-top: -10px;padding-bottom: 10px;}
 #logos{margin-top: 30px;}
 .tac{text-align:center;}
 #menucategorias{margin-top: 30px !important;display: block;width: 820px;margin: 0 auto; position: relative;}
@@ -25,7 +25,7 @@ body{font-family: 'Open Sans', sans-serif; background: #ECEFF1}
 .white{background: #fff;}
 .precio{font-weight: bolder;font-size: 22px; margin-bottom: 10px}
 .precio a{text-decoration: none; color: #262032}
-footer{min-height: 200px; background: #fff; float: left; width: 100%; margin-top: 40px}
+footer{min-height: 200px; background: #fff; float: left; width: 100%; }
 footer h5 {margin-top: 20px;font: 400 18px/22px "Open Sans", sans-serif;color: #262032;letter-spacing: 1px;text-transform: uppercase;}
 footer ul {margin-top: 20px}
 footer ul li{line-height: 26px}
@@ -34,25 +34,9 @@ footer ul li a:hover{color: #262032}
 #legales{color: #7c8a97; font-size: 12px; margin-top: 20px;background: url(../images/line.png) repeat-x center top; padding-top: 20px; padding-bottom: 20px}
 #triggermenu{float: right;color: #ff7978; display: none;     font-size: 21px;}
 #singleproductos{background: #fff;}
-#nombreproducto{
-	font: 300 42px/42px "Open Sans", sans-serif;
-    margin: 0 0 12px;
-    color: #354052; text-transform: uppercase;
-}
-.agregaralcarrito{
-	width: 200px;
-	color: #fff;
-	background: #ff7978;
-	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
-	text-decoration: none;
-	padding: 10px
-
-}
-img.redonda {
-    display: block;
-    margin: 10px auto;
-    width: 100%
-}
+#nombreproducto{font: 300 42px/42px "Open Sans", sans-serif;margin: 0 0 12px;color: #354052; text-transform: uppercase;}
+.agregaralcarrito{width: 200px;color: #fff;background: #ff7978;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;text-decoration: none;padding: 10px}
+img.redonda {display: block;margin: 10px auto;width: 100%}
 #descripcionproducto{color:#69757a;line-height: normal; border-bottom: 1px solid #ff7978; padding-bottom: 10px}
 #cantidadproducto{margin-top: 20px;border-bottom: 1px solid #ff7978; padding-bottom: 10px}
 #cantidadproducto a{color: #ff7978}
@@ -61,6 +45,13 @@ img.redonda {
 #precioproducto{margin-top: 40px}
 #precioproducto span{font-size: 30px;display: block;margin-bottom: 25px;}
 #recomendados{background: #fff;}
+.blanco{background:#fff; padding:30px 0; line-height: normal}
+.blanco p{margin-bottom: 10px;    font-size: 15px;    color: #666;}
+.telefono{margin-top: 17px}
+h1{color: #ff7978; font-size: 25px; margin-bottom: 20px}
+h2{color: #ff7978; font-size: 23px; margin-bottom: 20px}
+p.direccion{color: #ff7978; margin-top: 20px}
+ul.direccion{color: #666; font-size: 15px; list-style: outside; padding-left: 40px}
 /* MEDIAQUERIES */
 @media only screen and (min-width: 961px) and (max-width: 1200px) {
 }
@@ -72,6 +63,7 @@ img.redonda {
 	#menucategorias li a{width: 105px; display: block}
 	#menu{position: absolute;top: 10px;width: 110px;background: #fff;right: 0;z-index: 3; display: none}
 	#menu li{margin:5px 0;padding-left: 5px;width: 100%;text-align: right;}
+	.telefono{margin-top: 0; margin-bottom: 20px}
 }
 @media only screen and (min-width: 321px) and (max-width: 420px) {
 	#triggermenu{display: block;}
@@ -79,6 +71,7 @@ img.redonda {
 	#menucategorias li a{width: 105px; display: block}
 	#menu{position: absolute;top: 10px;width: 110px;background: #fff;right: 0;z-index: 3; display: none}
 	#menu li{margin:5px 0;padding-left: 5px;width: 100%;text-align: right;}
+	.telefono{margin-top: 0; margin-bottom: 20px}
 }
 @media only screen and (max-width: 320px) {
 	#triggermenu{display: block;}
@@ -86,6 +79,7 @@ img.redonda {
 	#menucategorias li a{width: 105px; display: block}
 	#menu{position: absolute;top: 10px;width: 110px;background: #fff;right: 0;z-index: 3; display: none}
 	#menu li{margin:5px 0;padding-left: 5px;width: 100%;text-align: right;}
+	.telefono{margin-top: 0; margin-bottom: 20px}
 }
 
 
